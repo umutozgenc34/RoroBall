@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float playerSpeed;
 
     [SerializeField] private Button kickButton;
-    [SerializeField] private float kickForce = 5f;
+    [SerializeField] private float kickForce = 10f;
 
     private Rigidbody2D rb;
 
